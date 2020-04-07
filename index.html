@@ -1,104 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <title>Mundo PC</title>
 </head>
-
 <body>
-    
-    <header>
-       <!-- Barra de navegación principal negra -->
-        <nav class="navbar-top">
-            <ul class="navbar-top-ul">
-                <li class="navbar-top-item">
-                    <a href="login.html" class="navbar-top-links">Registro</a>
-                </li>
-                <li class="navbar-top-item">
-                    <a href="login.html" class="navbar-top-links">Iniciar sesión</a>
-                </li>
-                <li class="navbar-top-item">
-                    <a href="carrito.html" class="navbar-top-links">
-                        <i class="zmdi zmdi-shopping-cart"></i> Carrito
-                        <!-- <i class="zmdi zmdi-chevron-down"></i> -->
-                    </a>
-                </li>
+    <header class="menu-mobil">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/menu.png" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="mis_compras.html">Mis compras</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
             </ul>
         </nav>
-        <!-- Barra de navegación blanca flotante -->
-        <nav class="navbar">
-           <!-- Barra de navegación para el movil -->
-            <header class="nabvar-mobile is-size-5-mobile">
-                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
-                <a class="navbar-mobile-link tipo-letra" href="index.html">Mundo PC</a>
-                <a class="navbar-mobile-link has-text-white tipo-letra" href="carrito.html"><i class="zmdi zmdi-shopping-cart"></i>Carrito</a>
-            </header>
-            <!-- Barra de navegación para el movil/escritorio -->
-            <nav class="nav-menu" id="mySidenav">
-               <!-- Menu movil barra buscar-->
-                <form class="form-group " action="#">
-                    <div class="form-group-container">
-                        <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
-                        <input type="text" class="form-group-input" placeholder="Buscar...">
-                    </div>
-                </form>
-                <strong><a class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark letra-logo" href="index.html">Mundo PC</a></strong>
-                <ul class="nav-menu-ul">
-                   
-                    <li class="nav-menu-item"><a href="productos.html" class="nav-menu-link">Productos</a></li>
-                    <li class="nav-menu-item"><a href="mis_compras.html" class="nav-menu-link">Mis compras</a></li>
-                    <li class="nav-menu-item"><a href="carrito.html" class="nav-menu-link">Carrito</a></li>
-                    <li class="nav-menu-item"><a href="login.html" class="nav-menu-link">Registro / Iniciar Sesión</a></li>
-                </ul>
-            </nav>
-        </nav>
     </header>
-    <!-- Banner -->
-    <div class="banner banner-cover">
-       
-        </div>
-        <!-- slogan -->
-         <div class="centrado"><p>Adquiere tu PC hoy mismo</p></div>
-         <!-- todo lo que va entre el BANNER y el FOOTER -->
-    <d class="productos"><p>Vista de los productos que estaran disponibles en el sitio</p></d>
-       
-        <div class="slider">
-           <ul>
-               <li><img src="img/pc_msi.PNG" alt=""></li>
-               <li><img src="img/pc_acer.PNG" alt=""></li>
-               <li><img src="img/pc_all_in_one.PNG" alt=""></li>
-               <li><img src="img/pc_asus.PNG" alt=""></li>
-               <li><img src="img/pc_hyunday.PNG" alt=""></li>
-               <li><img src="img/pc_hp.PNG" alt=""></li>
-               <li><img src="img/lenovo_gamer1.PNG" alt=""></li>
-               <li><img src="img/pc_dell_allinware.PNG" alt=""></li>
-                              
-           </ul>
-       </div>
-       <div class="productos" align="center">
-           <ul>
-               <li><img src="img/lap_acer.jpg" alt=""></li>
-               <li><img src="img/lap_asus.jpg" alt=""></li>
-               <li><img src="img/lap_dell.jpg" alt=""></li>
-               <li><img src="img/lap_dell_gamer.jpg" alt=""></li>
-               <li><img src="img/lap_hp.jpg" alt=""></li>
-               <li><img src="img/lap_lenovo.jpg" alt=""></li>
-               <li><img src="img/lap_toshiba.jpg" alt=""></li>            
-           </ul>
-       </div>
-      
-       
-        <!-- footer pie de pagina -->
-<footer class="footer">
-        <div class="footer-bar-top">
-            <p class="footer-bar-top-links">© 2020 Mundo PC. Todos los derechos reservados</p>
+    <div class="slider">
+        <ul>
+            <li><img src="img/img-principal.png" alt=""></li>
+            <li><img src="img/slider-2.png" alt=""></li>
+            <li><img src="img/slider-3.png" alt=""></li>
+            <li><img src="img/slider-4.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="img-muestra">
+        <h1 class="titulo titulo-mobil">Las mejores PC</h1>
+        <li><img src="img/laptop-slider.jpg" alt="" width="100%"></li>
+        <li><img src="img/Xiaomi-Mi-Notebook.jpg" alt="" width="100%"></li>
+        <li><img src="img/hp-840.png" alt="" width="100%"></li>
+        <li><img src="img/slogan.png" alt="" width="100%"></li>
+    </div>
+    <footer class="footer">
+        <div>
+            <p>© 2020 Mundo PC. Todos los derechos reservados</p>
         </div>
     </footer>
-    <!-- esto hace funcionar la barra flotante -->
-    <script src="js/main.js"></script>
 </body>
 </html>
